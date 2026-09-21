@@ -1,0 +1,21 @@
+RESUMEN EJECUTIVO - PROCESAMIENTO DE FACTURAS
+Generado: 2026-09-21 16:29
+
+Documentos procesados: 5
+  - Sin incidencias: 3
+  - Con incidencias: 2
+Monto total facturado (según campo Total capturado): $61,532.00
+Correos de clientes procesados con correcciones aplicadas: 1
+
+INCIDENCIAS DETECTADAS
+  - F-1004 (Servicios Integrales Obregón):
+      * Total inconsistente: capturado $17800.00, esperado (subtotal+IVA) $17864.00
+
+CORRECCIONES INCORPORADAS DESDE CORREOS DE CLIENTES
+  - F-1003: RFC -> ASM120824H73, pago programado 25 de septiembre de 2026 (fuente: Correo_Cliente_F1003.txt)
+
+ACCIONES SUGERIDAS
+  - Confirmar con el emisor de F-1004 el total correcto: la factura no cuadra aritméticamente (subtotal + IVA != total impreso). No pagar hasta aclarar.
+
+PROPUESTA DE AUTOMATIZACION (siguientes pasos)
+  Ver README.md, seccion 'Como escalar esto a produccion'.
